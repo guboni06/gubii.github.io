@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carshop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-danger">Машина</span>МЕЧТЫ</a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- ms-auto used for arrage navebar content in rightside, lg which means large-->
+              <li class="nav-item">
+                <a class="nav-link" href="#carouselExampleCaptions">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#topbrands">Топовые бренды</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Обзоры</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Контакт</a>
+              </li>
+             
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide ms-2 me-2" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Купите автомобиль своей мечты</h5>
+              <p>Покупка автомобиля вашей мечты наверняка добавит радости и удовлетворения в вашу жизнь.</p>
+              <p><a href="https://www.carwale.com/new/best-luxury-cars/" class="btn btn-warning mt3">Выяснить</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/5623498/pexels-photo-5623498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h5>Сделайте свой автомобиль уникальным </h5>
+              <p>Вы хмуры из-за колес вашего автомобиля? Мы придадим вашему автомобилю лучший вид, установив новые литые диски </p>
+              <p><a href="https://www.tsw.com/alloy_wheels.php" class="btn btn-warning mt3">Выяснить</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/10187150/pexels-photo-10187150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Создайте свой собственный дизайн для вашего автомобиля</h5>
+              <p>Вам наскучил интерьер вашего автомобиля? Мы предлагаем лучшее решение для вашего автомобиля. Создайте дизайн по вашему желанию.</p>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Далее</span>
+        </button>
+      </div>
+
+      <!--sections-->
+
+      <section id="about" class="about-section-padding">
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-lg-4 col-md-12 col-12 mt-5"> <!--arrange the web in row and divide it into two columns.line  95 and 100 that show division of row -->
+                    <div class="about-image">
+                        <img src="https://images.pexels.com/photos/8421909/pexels-photo-8421909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image cant show" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2>Мы обеспечиваем лучшее качество <br> Услуги</h2>
+                        <p>Мы считаем, что предоставление качественного обслуживания важнее, чем получение прибыли. Мы считаем каждого клиента королем и оказываем максимальную поддержку и заботу вам и вашему автомобилю. Мы понимаем, что управление качеством помогает организации создавать и развивать продукт/услугу, которые хотят клиенты. Качество устанавливает, что для организации достигаются более высокие доходы и производительность.</p>
+                        <a href="https://bizfluent.com/about-5437915-quality-customer-service-important.html" class="btn btn-warning">Читать дальше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--services provided page section-->
+
+      <section id="services" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Другие СЕРВИСЫ</h2>
+                        <p>мы <b>номер 1</b> автолидеры</p>
+                    </div>   
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                  <div class="card-body">
+                    <i class="bi bi-tools"></i>
+                    <h3 class="card-title">Техническое обслуживание автомобилей</h3>
+                    <p class="lead">Автомобиль, который регулярно проходит техническое обслуживание и ремонт, также дает огромные дивиденды в плане экономии топлива. Регулярная замена масла, охлаждающих жидкостей, жидкости радиатора и других жизненно важных жидкостей значительно повышает экономию топлива, тем самым давая вам лучший пробег и большую отдачу от вашего топливного доллара!</p>
+                    <a href="https://automechanica.com/blog/WHAT_SHOULD_BE_INCLUDED_CAR_SERVICING" class="btn btn-warning text-dark">Читать далее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                  <div class="card-body">
+                    <i class="bi bi-car-front-fill"></i>
+                    <h3 class="card-title">Дизайн салона автомобиля</h3>
+                    <p class="lead">Дизайн салона автомобиля относится к внешнему виду и размещению элементов внутри транспортного средства. Автомобильные компании имеют главного дизайнера интерьера, который управляет командой людей, которые следуют концепции главного дизайнера, чтобы завершить интерьер транспортного средства.Среди опрошенных покупателей автомобилей большинство по-прежнему уделяли больше внимания внешнему виду автомобиля</p>
+                    <a href="https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/the-future-of-interior-in-automotive" class="btn btn-warning text-dark">Читать далее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                  <div class="card-body">
+                    <i class="bi bi-bag-check"></i>
+                    <h3 class="card-title">Аксессуары</h3>
+                    <p class="lead">Автомобильные аксессуары — это дополнения, которые в основном используются для модернизации нового автомобиля, добавления стиля или улучшения его возможностей. Исходя из этого, существует две категории автомобильных аксессуаров: основные и неосновные. Эти дополнения могут не только сделать ваш автомобиль более умным, но и улучшить его производительность.</p>
+                    <a href="https://www.cartrade.com/blog/2015/car-accessories/benefits-of-car-accessories-1600.html" class="btn btn-warning text-dark">Читать далее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+
+      <!--brands-->
+
+      <section id="topbrands" class="branding section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h2>Лучшие бренды</h2>
+                    <p>Мы <b>номер 1</b>автолидеры </p>
+                </div>   
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="https://images.pexels.com/photos/3689532/pexels-photo-3689532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">BMW</h3>
+                <p class="lead">BMW — один из крупнейших и самых узнаваемых брендов автомобилей класса люкс в мире. Сегодня на дорогах ездят миллионы автомобилей BMW, и практически невозможно проехать по городу, не увидев приличное количество их автомобилей.</p>
+                <a href="https://www.bmw.in/en/index.html" class="btn bg-warning text-dark">Читать далее</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="https://images.unsplash.com/photo-1581966451257-a5c7c5afa833?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Rolls Royce</h3>
+                <p class="lead">Некоторые говорят, что нет ничего более особенного, чем Rolls-Royce. Эти жемчужины автомобилей популярны среди голливудской элиты и коллекционеров. Заметный стиль, невероятное качество и знаменитый орнамент на капоте делают Rolls-Royce узнаваемым практически для всех</p>
+                <a href="https://www.rolls-roycemotorcars.com/en_GB/home.html" class="btn bg-warning text-dark">Читать далее</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="https://images.unsplash.com/photo-1617566347924-ad5ebdaa014e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Bentley</h3>
+                <p class="lead">Bentley изготавливаются из высококачественных деталей, которые способствуют общей экстравагантности конечного продукта. Чтобы обеспечить ощущение роскоши, Bentley использует самые лучшие материалы, доступные для всех частей автомобиля.it Британский производитель и продавец автомобилей класса люкс и внедорожников</p>
+                <a href="https://www.bentleymotors.com/en.html" class="btn bg-warning text-dark">Читать далее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!--review of organization-->
+
+      <section id="reviews" class="team section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h2>Отзывы клиентов</h2>
+                    <p>Что скажут о нас наши клиенты?</p>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+                    <div class="teamcard text-center ">
+                      <div class="card-body">
+                        <img src="https://image.shutterstock.com/image-photo/portrait-happy-mid-adult-man-260nw-1812937819.jpg" alt="" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">John Manuel</h3>
+                        <p class="card-text">"CarZOne — это дилер автомобилей №1 в Керале. Я купил совершенно новый автомобиль Bentley в CarZone и получил его с лучшей поддержкой клиентов."</p>
+
+                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch">
+                    <div class="teamcard text-center">
+                      <div class="card-body">
+                        <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Christy Louis</h3>
+                        <p class="card-text">"Очень доволен CarZone. Они предоставляют лучший в своем классе сервис и поддержку."</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>   
+                </div>   
+                </div>  
+            </div>
+        </div>
+      </section>
+
+      <!--contact us-->
+
+      <section id="contact" class="contact section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+             <div class="section-header text-center pb-5">
+              <h2>Контакт</h2>
+              <p class="socials">
+                <a href="https://twitter.com/i/flow/login" class="bi bi-twitter text-dark mx-1"></a>
+                <a href="https://www.facebook.com/" class="bi bi-facebook text-dark mx-1"></a>
+                <a href="https://in.linkedin.com/" class="bi bi-linkedin text-dark mx-1"></a>
+                <a href="https://in.linkedin.com/" class="bi bi-instagram text-dark mx-1"></a>
+               </p>
+             </div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-md-12 p-1 pt-4 p-4 m-auto ">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="mb-3 me-3">
+                    <input type="text" class="form-control" required placeholder="Ваше ИМЯ" id="name">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <input type="text" class="form-control" required placeholder="Email" id="mail">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <textarea id=""rows="3" required class="form-control" placeholder="ВАШ запрос "></textarea>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-warning btn lg btn-block mt-3" onclick="document.getElementById('name').value = ''">Отправить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--footer-->
+
+      <footer class=" text-center bg-secondary text-white ms-5 me-5">
+        <div class="container">
+          <p class="text-white">Все права защищены @gubonti</p>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>     
+</body>
+</html>
